@@ -1,0 +1,15 @@
+{
+ "name": "BC Teen Pathways",
+ "short_name": "Pathways",
+ "start_url": "index.html",
+ "display": "standalone",
+ "background_color": "#f7f6f2",
+ "theme_color": "#5a54d6",
+ "icons": [
+  {
+   "src": "img/cat-map.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  }
+ ]
+}

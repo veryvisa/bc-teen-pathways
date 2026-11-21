@@ -1,0 +1,15 @@
+// Offline cache (only caches named btp-* are ever deleted: other sites share this origin): pages network-first, assets cache-first. Cache name changes with every build. PDFs are not pre-cached.
+const CACHE = 'btp-0c9ef9ac1f';
+const FILES = ["ap/biology/exam.html", "ap/biology/index.html", "ap/biology/log.html", "ap/biology/prepare.html", "ap/biology/unit-1.html", "ap/biology/unit-2.html", "ap/biology/unit-3.html", "ap/biology/unit-4.html", "ap/biology/unit-5.html", "ap/biology/unit-6.html", "ap/biology/unit-7.html", "ap/biology/unit-8.html", "careers/audiologist.html", "careers/cyc.html", "careers/health-info.html", "careers/index.html", "careers/mlt.html", "careers/neuroscience.html", "careers/pharmacist.html", "careers/pharmacology.html", "careers/pharmacy-tech.html", "careers/psychologist.html", "careers/public-health.html", "careers/rehab-assistant.html", "careers/rt.html", "careers/slp.html", "careers/social-worker.html", "careers/youth-mental-health.html", "components.html", "img/cat-flask.svg", "img/cat-listen.svg", "img/cat-map.svg", "img/cat-read.svg", "img/cat-sign.svg", "img/cat-sleep.svg", "img/cat-think.svg", "index.html", "kit/ap.js", "kit/focus.css", "kit/focus.js", "kit/kit.css", "kit/kit.js", "kit/sims.js", "kit/sitemap.js", "kit/slp.css", "kit/slp.js", "learn/ai.html", "learn/index.html", "learn/journal.html", "learn/methods.html", "learn/notes.html", "manifest.webmanifest", "plan.html", "profile/examples/helper.html", "profile/examples/index.html", "profile/examples/maker.html", "profile/examples/newcomer.html", "profile/examples/steady.html", "profile/examples/switcher.html", "profile/examples/worker.html", "profile/index.html", "review.html", "slp/auditory_processing.html", "slp/fluency.html", "slp/index.html", "slp/language_literacy.html", "slp/library.html", "slp/log.html", "slp/multilingual_accent.html", "slp/social_communication.html", "slp/speaking_anxiety.html", "slp/speech_sounds.html", "slp/spoken_language.html", "slp/voice.html"];
+self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });
+self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith('btp-') && k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
+self.addEventListener('fetch', e => {
+  const req = e.request;
+  // 1115: audio lives in sibling repos on the same origin (/btp-audio-*/): outside this site's scope -> straight to the network (Range/seek untouched)
+  if (req.method !== 'GET' || !req.url.startsWith(self.registration.scope)) return;
+  if (req.mode === 'navigate' || req.destination === 'document') {
+    e.respondWith(fetch(req).then(r => { const cp = r.clone(); caches.open(CACHE).then(c => c.put(req, cp)); return r; }).catch(() => caches.match(req, { ignoreSearch: true }).then(r => r || caches.match("index.html"))));
+  } else {
+    e.respondWith(caches.match(req, { ignoreSearch: true }).then(r => r || fetch(req)));
+  }
+});
