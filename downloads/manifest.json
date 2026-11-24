@@ -1,0 +1,254 @@
+{
+ "apbio-handbook-both.pdf": {
+  "pages": 61,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 2346541,
+  "landscape": false
+ },
+ "apbio-handbook-en.pdf": {
+  "pages": 41,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 627991,
+  "landscape": false
+ },
+ "apbio-handbook-zh.pdf": {
+  "pages": 40,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 2051981,
+  "landscape": false
+ },
+ "careers-guide-both.pdf": {
+  "pages": 33,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 1562273,
+  "landscape": false
+ },
+ "careers-guide-en.pdf": {
+  "pages": 26,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 572370,
+  "landscape": false
+ },
+ "careers-guide-zh.pdf": {
+  "pages": 25,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 1517429,
+  "landscape": false
+ },
+ "examples-guide-both.pdf": {
+  "pages": 5,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 690418,
+  "landscape": false
+ },
+ "examples-guide-en.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 227491,
+  "landscape": false
+ },
+ "examples-guide-zh.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 642573,
+  "landscape": false
+ },
+ "examples-helper-both.pdf": {
+  "pages": 5,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 935658,
+  "landscape": false
+ },
+ "examples-helper-en.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 291530,
+  "landscape": false
+ },
+ "examples-helper-zh.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 895543,
+  "landscape": false
+ },
+ "examples-maker-both.pdf": {
+  "pages": 5,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 924105,
+  "landscape": false
+ },
+ "examples-maker-en.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 291217,
+  "landscape": false
+ },
+ "examples-maker-zh.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 880033,
+  "landscape": false
+ },
+ "examples-newcomer-both.pdf": {
+  "pages": 5,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 909103,
+  "landscape": false
+ },
+ "examples-newcomer-en.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 293375,
+  "landscape": false
+ },
+ "examples-newcomer-zh.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 868537,
+  "landscape": false
+ },
+ "examples-steady-both.pdf": {
+  "pages": 5,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 892332,
+  "landscape": false
+ },
+ "examples-steady-en.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 290261,
+  "landscape": false
+ },
+ "examples-steady-zh.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 847068,
+  "landscape": false
+ },
+ "examples-switcher-both.pdf": {
+  "pages": 5,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 920030,
+  "landscape": false
+ },
+ "examples-switcher-en.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 288688,
+  "landscape": false
+ },
+ "examples-switcher-zh.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 868091,
+  "landscape": false
+ },
+ "examples-worker-both.pdf": {
+  "pages": 5,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 911070,
+  "landscape": false
+ },
+ "examples-worker-en.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 296162,
+  "landscape": false
+ },
+ "examples-worker-zh.pdf": {
+  "pages": 3,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 870756,
+  "landscape": false
+ },
+ "learn-guide-both.pdf": {
+  "pages": 11,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 396299,
+  "landscape": false
+ },
+ "learn-guide-en.pdf": {
+  "pages": 10,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 114041,
+  "landscape": false
+ },
+ "learn-guide-zh.pdf": {
+  "pages": 10,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 359313,
+  "landscape": false
+ },
+ "plan-kit-both.pdf": {
+  "pages": 8,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 912201,
+  "landscape": false
+ },
+ "plan-kit-en.pdf": {
+  "pages": 8,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 403794,
+  "landscape": false
+ },
+ "plan-kit-zh.pdf": {
+  "pages": 8,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 838476,
+  "landscape": false
+ },
+ "slp-handbook-both.pdf": {
+  "pages": 58,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 2040044,
+  "landscape": false
+ },
+ "slp-handbook-en.pdf": {
+  "pages": 33,
+  "footer_min_in": 0.711,
+  "footer_max_in": 0.711,
+  "bytes": 641111,
+  "landscape": false
+ },
+ "slp-handbook-zh.pdf": {
+  "pages": 31,
+  "footer_min_in": 0.666,
+  "footer_max_in": 0.666,
+  "bytes": 1922303,
+  "landscape": false
+ }
+}
